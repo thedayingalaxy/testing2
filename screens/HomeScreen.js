@@ -14,10 +14,10 @@ const HomeScreen = () => {
 
 
   return (
-    <SafeAreaView>
+    <SafeAreaView className = "bg-white pt-5">
       <Text className = "text-red-500" >
         {/* Header */}
-        <View className = "flex-row pb-3 items-centre mx-4 space-x-2">
+        <View className = "flex-row pb-3 items-centre mx-4 space-x-2 px-4">
           <Image
             source ={{
               uri: 'https://i.insider.com/5e32f2a324306a19834af322?width=750&format=jpeg&auto=webp',
@@ -32,6 +32,7 @@ const HomeScreen = () => {
             </Text>
           </View>
         </View>
+
       </Text>
     </SafeAreaView>
   );
